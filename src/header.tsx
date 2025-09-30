@@ -5,4 +5,6 @@ function Header() {
 
 export default Header;
 
-const Headercomponent = styled.header``;
+const Headercomponent = styled.header`
+  background-color: rgb(3, 47, 83);
+`;
