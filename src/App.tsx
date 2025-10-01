@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 import Header from "./header";
 import About_me from "./about_me";
+import Footer from "./assets/footer";
 import Backgroundpicture from "./assets/bg-main-desktop.png";
 
 const GlobalStyles = createGlobalStyle`
@@ -30,6 +31,7 @@ function App() {
       <GlobalStyles />
       <Header />
       <About_me />
+      <Footer />
     </>
   );
 }

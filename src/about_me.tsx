@@ -18,8 +18,8 @@ const AboutmeComponent = styled.div`
   flex-direction: column;
   justify-content: center;
   border: 1px solid #1e2d3d;
-  height: 100vh;
-  width: 100%;
+  border-radius: 5px;
+  height: 75vh;
 `;
 const Hello = styled.p`
   color: white;
@@ -30,7 +30,7 @@ const Name = styled.p`
   font-weight: 100;
   font-style: normal;
   color: white;
-  font-size: 40px;
+  font-size: 20px;
 `;
 
 const Profession = styled.p`
